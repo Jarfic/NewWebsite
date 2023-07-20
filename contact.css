@@ -1,0 +1,154 @@
+/*changes inside and outside spacing*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*changes background color and position*/
+.background{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #0d1f25 ;
+}
+/*changes box postion, dimensions, and colors*/
+.box1{
+    position: relative;
+    background-color: #224f5e;
+    top: 150px;
+    height: 600px;
+    width: 750px;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid #010101;
+}
+/*changes header position and color*/
+.box1 h1{
+    position: relative;
+    color: #0d1f25;
+    top: 40px;
+    text-align: center;
+}
+/*change paragragh color*/
+.box1 p{
+    color:#143038;    
+}
+/*changes box color, position and dimensions*/
+.box2{
+    position: relative;
+    background-color: #224f5e;
+    height: 150px;
+    width: 200px;
+    opacity: .4;
+    bottom: 350px;
+    border: 2px solid #0d1f25;
+    right: 2px;
+}
+/*changes header position and color*/
+.box2 h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #47a2bd;
+}
+/*changes paragraph position and color*/
+.box2 p{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #47a2bd;
+}
+/*changes box position, color, borders, and dimesion*/
+.b1{
+    position: relative;
+    background-color: #3a879e;
+    height: 40px;
+    width: 600px;
+    top: 110px;
+    margin: auto;
+    border: 1px solid #143038;
+}
+/*changes box position, color, borders, and dimesion*/
+.b2{
+    position: relative;
+    background-color: #3a879e;
+    height: 40px;
+    width: 600px;
+    top: 140px;
+    margin: auto;
+    border: 1px solid #143038;
+}
+/*changes box position, color, borders, and dimesion*/
+.b3{
+    position: relative;
+    background-color: #3a879e;
+    height: 150px;
+    width: 600px;
+    top: 180px;
+    margin: auto;
+    border: 1px solid #143038;
+    
+}
+
+/*changes nav bar position*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+/*gets rid of bullet points*/
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+/*sets list horizontal*/
+li{
+    float: left;
+}
+/*change list text color, position, size, and gets rid of underline*/
+li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    opacity: 0.7;
+    padding: 14px 30px;
+    display: block;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+/*moves logo*/
+.logo{
+    position: absolute;
+    right: 1270px;
+    top: 5px;
+}
+/*changes header color and font*/
+.logo h1{
+    color: #224f5e;
+    font-style: italic;
+}
+/*mover nav bar*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*moves logo*/
+.logo{
+    position: absolute;
+    right: 1270px;
+    top: 5px;
+}
+/*changes logo color and font*/
+.logo h1{
+    color: #245462;
+    font-style: italic;
+}
+/*changes input box color*/
+input{
+    background-color: #3a879e ;
+}

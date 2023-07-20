@@ -1,0 +1,140 @@
+/*changes outside and inside spacing of the page*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*change background dimensions, position ands an image*/
+.background{
+    position: fixed;
+    background-image: url(https://tinyurl.com/3ehsuxkh);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+/*changes box color and position*/
+.box1{
+    position: relative;
+    background-color: #0d1f25;
+    height: 70vh;
+    width: 100%;
+    opacity: .7;
+}
+/*change header color, font, position, and dimensions*/
+.box1 h2{
+    position: relative;
+    top: 200px;
+    margin-left: 300px;
+    color: rgb(248, 248, 248);
+    opacity: 1;
+    font-size: xx-large;
+    font-style: italic;
+}
+/*changes paragragh position, color, and font*/
+.box1 p{
+    position: relative;
+    top: 200px;
+    margin-left: 300px;
+    color: rgb(248, 248, 248);
+    opacity: 1;
+    font-size: x-large;
+}
+/*changes image position and dimensions*/
+.box1 img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    float: right;
+    right: 300px;
+}
+/*changes buttons size and position*/
+.box1 button{
+    position: relative;
+    top: 210px;
+    margin-left: 300px;
+    font-size: 17px;
+}
+/*removes underline from link and changes the color*/
+.box1 a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+/*change box color, position, and dimensions*/
+.box2{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    opacity: .6;
+    left: 200px;
+    height: 400px;
+    width: 200px;
+    bottom: 60px;
+}
+/*changes header position, color, and font*/
+.box2 h2{
+    position: relative;
+    top: 40px;
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*changes button position and border*/
+.box2 button{
+    position: relative;
+    top: 50px;
+    margin-left: 80px;
+    margin-right: 100px;
+    border: 2px solid #010101;
+}
+/*gets rid of link underline and changes color*/
+.box2 a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+/*gets rid of list bullet points*/
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+/*makes list horizontal*/
+li{
+    float: left;
+}
+/*changes list text color, position, font, and gets rid of the underline*/
+li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    opacity: 0.7;
+    padding: 14px 30px;
+    display: block;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+/*changes header color, font, and position*/
+h1{
+    position: relative;
+    color: #0d1f25;
+    text-align: center;
+    font-style: italic;
+    top: 15px;
+}
+/*moves nav bar*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*moves logo*/
+.logo{
+    position: absolute;
+    right: 1270px;
+    top: -10px;
+}
+/*changes logo color and font*/
+.logo h1{
+    color: #0d1f25;
+    font-style: italic;
+}

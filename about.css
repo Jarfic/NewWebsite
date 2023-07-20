@@ -1,0 +1,103 @@
+/*changes the inside and outside spacing of the page*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*changes background color and dimesions*/
+.background{
+    background-color: #0d1f25;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+/*change box1 position and dimensions*/
+.box1{
+    background-color: #245462;
+    position: relative;
+    height: 25vh;
+    width: 100%;
+}
+/*changes header position*/
+.box1 h1{
+    position: relative;
+    text-align: center;
+    top: 20px;
+
+}
+/*changes paragraph position*/
+.box1 p{
+    position: relative;
+    font-size: large;
+    text-align: center;
+    margin-left: 420px;
+    margin-right: 420px;
+    top: 20px;
+}
+/*changes box2 background color and position*/
+.box2{
+    background-color: #1e4654;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+/* changes header position*/
+.box2 h2{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+/*changes paragraph position adn size*/
+.box2 p{
+    position: relative;
+    font-size: large;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    top: 20px;
+}
+/*gets rid of the bullet point*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    
+}
+/*makes list horizontal*/
+li{
+    float: left;
+}
+/*change list text color, font, position, an gets rid of underline*/
+li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    padding: 14px 30px;
+    display: block;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.7;
+}
+/*centers the nav bar*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*moves logo*/
+.logo{
+    position: absolute;
+    right: 1270px;
+    top: 5px;
+}
+/*colors and styles font size of header*/
+.logo h1{
+    color: #245462;
+    font-style: italic;
+}
+/*changes color and heading position*/
+h3{
+    position: relative;
+    color: #204a57;
+    text-align: center;
+    top: 20px;
+}

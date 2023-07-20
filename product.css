@@ -1,15 +1,17 @@
+/*changes inside and outside spacing of the page*/
 *{
     margin: 0;
     padding: 0;
 }
+/*moves product position*/
 .products{
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*chnages product position, border, and dimensions*/
 .product{
     width: 250px;
     border: 1px solid #010101;
@@ -19,29 +21,29 @@
     background-color: #142f38;
     opacity: 0.5;
 }
-
+/*sets product dimensions*/
 .product lag {
     width: 100%;
     max-height: 100px;
     object-fit: cover;
 }
-
+/*changes header color and position*/
 .product h2{
     color: rgb(248, 248, 248);
     margin-top: 5px;
 }
-
+/*changes paragragh color and positiono*/
 .product p{
     color: black;
     margin-top: 5px;
 }
-
+/*changes image size*/
 .product img{
     width: 200px;
     max-height: 200px;
     object-fit: cover;
 }
-
+/*adds image link and change its size*/
 .background{
     position: fixed;
     background-image: url(https://tinyurl.com/3ehsuxkh);
@@ -50,20 +52,17 @@
     background-size: cover;
     background-position: center;
 }
-
+/*gets rid of the list bullet points*/
 ul{
     list-style-type: none;
     margin: 0;
-    padding-top: 26px ;
-    overflow: hidden;
-    background-color: #1f4c5a;
-    border: 1px solid #0d1f25;
+    
 }
-
+/*makes list horizontal*/
 li{
     float: left;
 }
-
+/*changes list text color, position, font, and gets rid of the underline*/
 li a{
     text-decoration: none;
     color: rgb(248, 248, 248);
@@ -74,28 +73,31 @@ li a{
     font-style: italic;
     text-align: center;
 }
-
+/*changes header color, position, and font*/
 h1{
     position: relative;
     color: #0d1f25;
     text-align: center;
     font-style: italic;
-    bottom: 20px;
+    top: 15px;
 }
+/*moves nav bar and changes background color*/
 .nav{
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    bottom: 29px;
+    overflow: hidden;
+    background-color: #142f38;
 }
-
+/*moves logo*/
 .logo{
     position: absolute;
     right: 1270px;
-    top: 30px;
+    top: -10px;
 }
-
+/*change header color and font*/
 .logo h1{
-    color: #0d1f25;
+    color: #224f5e;
+    font-style: italic;
 }

@@ -1,0 +1,171 @@
+/*changes inside and outside spacing*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*change background color and dimensions*/
+.background{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #0d1f25 ;
+}
+/*cnahges box position, color, and dimensions*/
+.box1{
+    position: relative;
+    background-color: #224f5e;
+    height: 100vh;
+    width: 40%;
+    float: left;
+}
+/*box changes background color*/
+.box1 input{
+    background-color: #143038;
+}
+
+/*changes paragrah color*/
+.box1 p{
+    color: #224f5e;
+
+}
+/*changes header color and position*/
+.box1 h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    color: #0d1f25;
+}
+/*changes box position, color and dimensions*/
+.box2{
+    position: relative;
+    background-color: #0d1f25;
+    height: 100vh;
+    width: 60%;
+    float: right;
+}
+/*changes input box color*/
+.box2 input{
+    background-color:#0d1f25 ;
+}
+/*change header color and position*/
+.box2 h1{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    color: #224f5e;
+}
+/*change box color, position, border, and dimensions*/
+.box3{
+    position: relative;
+    background-color: #224f5e;
+    top: 150px;
+    height: 600px;
+    width: 750px;
+    margin-bottom: 30%;
+    margin-top: 30%;
+    margin: auto;
+    border: 2px solid #010101;
+}
+/*change header color, font, border, and position*/
+.box3 h2{
+    position: relative;
+    color: #0d1f25;
+    font-style: italic;
+    overflow: hidden;
+    background-color: #143038;
+    border: 1px solid #010101;
+
+}
+/*changes box position, color, dimensions, and border */
+.box4{
+    position: relative;
+    background-color: #0d1f25;
+    top: 70px;
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    border: 2px solid #010101;
+}
+/*changes header background color*/
+.box4 h3{
+    overflow: hidden;
+    background-color: 143038;
+    color: #224f5e;
+}
+/*moves nav bar*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*gets rid of the bullet point*/
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+/*makes list horizontal*/
+li{
+    float: left;
+}
+/*change list text color, position, size, font, and gets rid of underline */
+li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    padding: 14px 30px;
+    display: block;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.7;
+}
+/*moves logo*/
+.logo{
+    position: absolute;
+    right: 1270px;
+    top: 5px;
+}
+/*changes logo color and font*/
+.logo h1{
+    color: #224f5e;
+    font-style: italic;
+}
+/*moves nav bar*/
+.nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*change box position, color, border, and dimensions*/
+
+.b1{
+    position: relative;
+    background-color: #143038;
+    height: 40px;
+    width: 400px;
+    top: 110px;
+    margin: auto;
+    border: 2px solid black;
+}
+/*change box position, color, border, and dimensions*/
+.b2{
+    position: relative;
+    background-color: #143038;
+    height: 150px;
+    width: 400px;
+    top: 160px;
+    margin: auto;
+    border: 2px solid black;
+}
+/*change box position, color, border, and dimensions*/
+.b3{
+    position: relative;
+    background-color: #143038;
+    height: 150px;
+    width: 400px;
+    top: 230px;
+    margin: auto;
+    border: 2px solid black;
+    
+}
